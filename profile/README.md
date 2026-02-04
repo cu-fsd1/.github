@@ -231,10 +231,13 @@ Install the **Live Server** extension in VSCode (an improved version of Live Ser
 
 ## 🧪 Experiment 2 
 
-### 🧪 CSS Layout Experiment – Profile Card Design  
+### 🧪 CSS Layout Experiment – Profile Card Design
+
+![Profile Card](https://www.florin-pop.com/.netlify/images?url=_astro%2Fprofile-card-design.80L7jBiM.PNG)
+
 
 > ❗  
-> **Deadline:** _(To be announced)_  
+> **Deadline:** 5 jan, 5:30 pm  
 > **Viva:** Will be conducted in upcoming classes  
 
 ---
