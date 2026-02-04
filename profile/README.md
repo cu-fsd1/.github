@@ -12,11 +12,12 @@
 - [📖 Course Materials](#-course-materials)
 - [🎯 Assignment Structure & Grading](#-assignment-structure--grading)
 - [📤 Submission](#-submission)
-  - [📝 Google Form](#-google-form)
   - [🎥 Demo Video](#-demo-video)
   - [📋 Requirements](#-requirements)
+  - [📋 Project Submission Guidelines](#project-submission-guidelines)
 - [🧪 Experiment Guides](#-experiment-guides)
   - [Experiment 1](#-experiment-1)
+  - [Experiment 2](#-experiment-2)
 
 ---
 
@@ -38,20 +39,6 @@ All source materials for the course are available at: <a href="https://github.co
 
 ---
 
-## 📤 Submission
-
-### 📝 Google Form
-
-Please submit your project details using the following link:
-
-<div align="center">
-  <a href="https://forms.gle/mPshb76XVgbxHW4s6">
-    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
-  </a>
-</div>
-
----
-
 ### 🎥 Demo Video
 
 <div align="center">
@@ -65,7 +52,7 @@ Please submit your project details using the following link:
 ### 📋 Requirements
 
 
-### 🏠 For Part B (Medium) Assignments
+### 🏠 For Assignments
 
 You must submit the following inside a Google Form:
 
@@ -176,6 +163,27 @@ Create a comprehensive README equivalent to your practical file:
 - ✅ Document your implementation approach
 - ✅ Include screenshots or demos (if applicable)
 
+---
+## Project Submission Guidelines
+
+### 1. Repository Structure & Format 📂
+- Ensure that the **repository name** and **structure** match the example shown in the reference image provided.
+
+### 2. Deployment Link 🌐
+- Please **format the deployment link** correctly. If you're facing any issues with this, refer to the provided reference for changing the link format.
+
+### 3. Exclude `node_modules` ❌
+- Do **not** include the **`node_modules`** folder in the zip file. This is important for clean submissions and avoids unnecessary bloat.
+
+### 4. Update README 📝
+- Make sure your **README** is up-to-date and provides clear information about the project.
+- Include a **folder** within the repository to store **screenshots** of the various web pages created for the project. Ideally, **2-3 screenshots** are sufficient.
+
+### 5. Authentic Submission ✅
+- Avoid making **fake GitHub submissions**. Ensure that the repository is legitimate, with relevant files and proper project documentation.
+
+
+
 
 ## 🧪 Experiment Guides
 
@@ -183,6 +191,22 @@ Create a comprehensive README equivalent to your practical file:
 
 > [!IMPORTANT]
 > **Deadline:** 23 January 2026
+
+---
+
+## 📤 Submission
+
+### 📝 Google Form
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/3Cac7xx1GJdnwHNz6">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+---
 
 ### 🛠️ Installation and Setup
 
@@ -205,6 +229,108 @@ Install the **Live Server** extension in VSCode (an improved version of Live Ser
 3. Search for "Live Server"
 4. Click Install
 
+## 🧪 Experiment 2 
+
+### 🧪 CSS Layout Experiment – Profile Card Design  
+
+> ❗  
+> **Deadline:** _(To be announced)_  
+> **Viva:** Will be conducted in upcoming classes  
+
+---
+### 📝 Google Form
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/wiF7sEw1qocrrEUh9">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+### 📝 Submission Instructions  
+
+Students must submit the project using the submission method instructed in class (GitHub/ Drive).
+
+---
+
+### 📌 Assessment Topic  
+
+Design a **modern, visually appealing Profile Card UI** using **HTML & CSS only**.
+
+The profile card should resemble a **real-world user profile card**, similar to social media or portfolio cards.
+
+---
+
+### 🎯 Objective  
+
+By completing this experiment, students will:
+
+- Understand core CSS layout techniques  
+- Learn and apply **Flexbox**, **Grid**, and **Positioning**  
+- Improve UI alignment, spacing, and responsiveness  
+- Design a reusable UI component  
+
+---
+
+### 🧩 Mandatory CSS Concepts  
+
+Students **must use all three** of the following CSS concepts:
+
+#### ✅ `display: flex`
+- Align profile image and content  
+- Center elements horizontally and vertically  
+- Arrange buttons or icons  
+
+#### ✅ `display: grid`
+- Structure the overall card layout  
+- Divide card sections (image, content, footer)  
+- Manage spacing effectively  
+
+#### ✅ `position` (relative / absolute)
+- Add badges (verified / online status)  
+- Create overlapping UI elements  
+- Position icons or labels  
+
+⚠️ **Marks will be deducted if any of the above is missing.**
+
+---
+
+### 🎨 UI & Design Requirements  
+
+- Clean and modern layout  
+- Rounded corners  
+- Proper spacing and alignment  
+- Consistent typography  
+- Soft shadows and hover effects  
+- Responsive design (mobile + desktop)  
+
+---
+
+### 🧑‍💼 Profile Card Must Include  
+
+Each profile card **must contain**:
+
+- Profile image  
+- Name  
+- Role / designation  
+- Short description or tagline  
+- At least one button (Follow / View Profile / Contact)  
+- Icons or statistics (followers, likes, etc.)  
+- Optional badge (Verified / Online)  
+
+---
+
+### 📁 Recommended Folder Structure  
+
+```
+profile-card/
+│
+├── index.html
+├── style.css
+└── assets/
+    └── profile.jpg
+```
 
 <div align="center">
 
