@@ -18,6 +18,7 @@
 - [🧪 Experiment Guides](#-experiment-guides)
   - [Experiment 1](#-experiment-1)
   - [Experiment 2](#-experiment-2)
+  - [Experiment 4](#-experiment-4)
 
 ---
 
@@ -334,6 +335,126 @@ profile-card/
 └── assets/
     └── profile.jpg
 ```
+## 🧪 Experiment 4  
+
+### 💰 JavaScript Banking UI – Simple Wallet Application  
+
+## Banking UI
+
+> ❗  
+> **Deadline:** 20 Januray, Evening
+
+---
+
+### 📝 Google Form  
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/YSLKA3Ck4UHYQLLK7">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+---
+
+### 📝 Submission Instructions  
+
+Students must submit the project using the submission method instructed in class (GitHub / Drive).
+
+---
+
+### 📌 Assessment Topic  
+
+Design a **simple Banking UI / Wallet Application** using **HTML, CSS & JavaScript**, where the user can:
+
+- Add predefined amounts (₹1000, ₹500, ₹2000)  
+- Withdraw money (only if sufficient balance is available)  
+- View current balance in real-time  
+
+This application should simulate **basic banking operations** in a clean and user-friendly interface.
+
+---
+
+### 🎯 Objective  
+
+By completing this experiment, students will:
+
+- Understand **JavaScript DOM manipulation**  
+- Learn to handle **user events** (clicks, inputs)  
+- Implement **basic business logic** (deposit & withdrawal)  
+- Improve interaction between **HTML, CSS, and JavaScript**  
+- Build a simple real-world inspired UI  
+
+---
+
+### 🧩 Mandatory JavaScript Concepts  
+
+Students **must use** the following JavaScript concepts:
+
+#### ✅ Event Handling  
+- Button click events for adding and withdrawing money  
+
+#### ✅ DOM Manipulation  
+- Dynamically update the balance on the UI  
+
+#### ✅ Conditional Logic  
+- Prevent withdrawal when balance is insufficient  
+- Show alert or error message when funds are low  
+
+⚠️ **Marks will be deducted if any of the above is missing.**
+
+---
+
+### 🎨 UI & Design Requirements  
+
+- Clean and minimal banking UI  
+- Display current balance clearly  
+- Buttons for adding ₹500, ₹1000, ₹2000  
+- Withdraw input + button  
+- Proper spacing and alignment  
+- Responsive layout (mobile + desktop)  
+- Subtle shadows and hover effects  
+
+---
+
+### 🧑‍💻 Application Must Include  
+
+Each banking UI **must contain**:
+
+- Balance display section  
+- Buttons to add money:  
+  - ➕ Add ₹500  
+  - ➕ Add ₹1000  
+  - ➕ Add ₹2000  
+- Withdraw input field  
+- Withdraw button  
+- Validation message (e.g., “Insufficient Balance”)  
+- Optional: Transaction history (bonus feature 🌟)  
+
+---
+
+### 📁 Recommended Folder Structure  
+```
+banking-ui/
+│
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+└── icons/
+```
+
+
+### 🛠️ Functional Requirements  
+
+- Clicking on **Add ₹500 / ₹1000 / ₹2000** should increase the balance  
+- User should be able to enter an amount to withdraw  
+- Withdrawal should only succeed if **balance ≥ withdrawal amount**  
+- If balance is insufficient, show an **error message**  
+- Balance must update **in real-time**  
+
+---
 
 <div align="center">
 
