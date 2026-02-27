@@ -464,7 +464,7 @@ banking-ui/
 ## Character Counter UI
 
 > ❗  
-> **Deadline:** *(as informed in class)*
+> **Deadline:** *01 March 2026*
 
 ---
 
