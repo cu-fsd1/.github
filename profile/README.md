@@ -19,6 +19,7 @@
   - [Experiment 1](#-experiment-1)
   - [Experiment 2](#-experiment-2)
   - [Experiment 4](#-experiment-4)
+  - [Experiment 5](#-experiment-5)
 
 ---
 
@@ -453,6 +454,167 @@ banking-ui/
 - Withdrawal should only succeed if **balance ≥ withdrawal amount**  
 - If balance is insufficient, show an **error message**  
 - Balance must update **in real-time**  
+
+---
+
+## 🧪 Experiment 5
+
+### ✍️ React UI – Live Character Counter (Textarea)
+
+## Character Counter UI
+
+> ❗  
+> **Deadline:** *(as informed in class)*
+
+---
+
+### 📝 Google Form
+
+Please submit your project details using the Google Form link shared by your instructor.
+<div align="center"> <a href="https://forms.gle/89UWZShBTAs98YK46"> <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" /> </a> </div>
+
+---
+
+### 📝 Submission Instructions
+
+Students must submit the project using the submission method instructed in class (**GitHub / Drive**).
+
+---
+
+### 📌 Assessment Topic
+
+Build a **Live Character Counter** using **React**, where the user can:
+
+- Type inside a **textarea**
+- See the **character count update live** as they type
+- (Optional) Set a **maximum limit** and show warnings when nearing/exceeding the limit
+
+This application should demonstrate **real-time UI updates** in a clean and user-friendly interface.
+
+---
+
+### 🎯 Objective
+
+By completing this experiment, students will:
+
+- Understand **React state management** (`useState`)
+- Practice **event handling** (`onChange`)
+- Learn **real-time UI rendering** in React
+- Implement **basic validation logic**
+- Improve UI/UX with a responsive layout and simple styling
+
+---
+
+### 🧩 Mandatory React Concepts
+
+Students **must use** the following React concepts:
+
+#### ✅ Event Handling
+- Handle typing in textarea using `onChange`
+
+#### ✅ State Management
+- Store the textarea value in React state (`useState`)
+
+#### ✅ Conditional Rendering / Logic
+- Show warnings or error messages based on conditions (example: limit exceeded)
+- Disable submit/save button if required (optional)
+
+⚠️ **Marks will be deducted if any of the above is missing.**
+
+---
+
+### 🎨 UI & Design Requirements
+
+- Clean and minimal UI
+- Textarea centered with proper spacing
+- Show **Live Character Count** clearly (e.g., `Characters: 42`)
+- Responsive layout (mobile + desktop)
+- Subtle shadows and hover/focus effects
+- Error/warning message styling (e.g., red for exceeded limit)
+
+---
+
+### 🧑‍💻 Application Must Include
+
+Each project **must contain**:
+
+- Textarea input field
+- Live character counter display
+- Clear label/title (e.g., “Live Character Counter”)
+- Validation message (example: “Character limit exceeded!”)
+
+✅ **Bonus Feature 🌟 (Optional):**
+- Word counter (`Words: 12`)
+- Maximum character limit (e.g., 200)
+- Progress indicator / percentage bar
+- Reset/Clear button
+- Save draft to `localStorage`
+
+---
+
+### 📁 Recommended Folder Structure (React)
+
+> You can use **Vite** or **Create React App** (as taught in class).
+
+Example (Vite):
+
+```
+character-counter/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   └── CharacterCounter.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+│
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+### 🛠️ Functional Requirements
+
+- Typing inside the textarea should **instantly update** the character count
+- Character count must reflect **all characters**, including spaces
+- If a max limit is implemented:
+  - Show an error/warning when the limit is exceeded
+  - (Optional) Prevent typing beyond the limit OR allow typing but highlight overflow
+- UI must remain responsive and clean on different screen sizes
+
+---
+
+### ✅ Suggested Logic (Hint)
+
+- Store textarea text in state:
+  - `const [text, setText] = useState("")`
+- Character count:
+  - `text.length`
+- Update on typing:
+  - `onChange={(e) => setText(e.target.value)}`
+
+---
+
+### 📸 Output Example (Reference)
+
+- Title: **Live Character Counter**
+- Textarea
+- Below textarea:
+  - `Characters: 0`
+  - (Optional) `Words: 0`
+  - (Optional) `Limit: 200 (remaining: 200)`
+
+---
+
+### 📌 Notes
+
+- Keep code clean and properly indented
+- Add comments where necessary
+- Ensure your UI updates **without page reload**
+- Make sure it works in both desktop and mobile view
 
 ---
 
