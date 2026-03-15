@@ -20,6 +20,7 @@
   - [Experiment 2](#-experiment-2)
   - [Experiment 4](#-experiment-4)
   - [Experiment 5](#-experiment-5)
+  - [Experiment 6](#-experiment-6)
 
 ---
 
@@ -617,6 +618,211 @@ character-counter/
 - Make sure it works in both desktop and mobile view
 
 ---
+## 🧪 Experiment 6
+
+### ✍️ React UI -- Product Card Component (Props)
+
+## Product Card UI
+
+> ❗ **Deadline:** *17 March 2026*
+
+---
+
+### 📝 Google Form  
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/YSLKA3Ck4UHYQLLK7">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+
+### 📝 Submission Instructions
+
+Students must submit the project using the submission method instructed
+in class (**GitHub / Drive**).
+
+### 📌 Assessment Topic
+
+Build a **ProductCard Component** using **React**, where product
+information is passed using **props** and displayed in a clean UI card.
+
+The card should display:
+
+-   Product **Name**
+-   Product **Price**
+-   Product **Stock Status**
+
+This experiment focuses on understanding **component reusability and
+props in React**.
+
+------------------------------------------------------------------------
+
+### 🎯 Objective
+
+By completing this experiment, students will:
+
+-   Understand **React component structure**
+-   Learn **props usage**
+-   Practice **component reusability**
+-   Display **dynamic data inside UI components**
+-   Build a **clean card-based UI layout**
+
+------------------------------------------------------------------------
+
+### 🧩 Mandatory React Concepts
+
+Students **must use** the following React concepts:
+
+#### ✅ Props
+
+-   Pass product details (`name`, `price`, `inStock`) from parent
+    component to `ProductCard`
+
+#### ✅ Functional Components
+
+-   Implement ProductCard as a reusable functional component
+
+#### ✅ Conditional Rendering
+
+-   Display stock status:
+    -   **In Stock**
+    -   **Out of Stock**
+
+⚠️ **Marks will be deducted if any of the above is missing.**
+
+------------------------------------------------------------------------
+
+### 🎨 UI & Design Requirements
+
+-   Clean **card-based layout**
+-   Product details clearly visible
+-   Centered card layout
+-   Responsive UI (mobile + desktop)
+-   Use subtle **shadows and rounded corners**
+-   Color indication for stock:
+    -   Green → In Stock
+    -   Red → Out of Stock
+
+------------------------------------------------------------------------
+
+### 🧑‍💻 Application Must Include
+
+Each project **must contain**:
+
+-   `ProductCard` component
+-   Props:
+    -   `name`
+    -   `price`
+    -   `inStock`
+-   Display product details inside the card
+-   At least **2--3 product cards rendered from App component**
+
+Example:
+
+-   Product 1 → Laptop -- ₹55000 -- In Stock
+-   Product 2 → Headphones -- ₹2000 -- Out of Stock
+
+------------------------------------------------------------------------
+
+### 🌟 Bonus Features (Optional)
+
+Students can add additional improvements such as:
+
+-   Product image
+-   Add to Cart button
+-   Hover animation on card
+-   Discount price display
+-   Rating stars
+
+------------------------------------------------------------------------
+
+### 📁 Recommended Folder Structure (React)
+
+Example (Vite):
+
+    product-card/
+    │
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   └── ProductCard.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── styles.css
+    │
+    ├── index.html
+    ├── package.json
+    └── README.md
+
+------------------------------------------------------------------------
+
+### 🛠️ Functional Requirements
+
+-   Product data must be **passed using props**
+-   ProductCard must **display dynamic values**
+-   Multiple cards should render correctly
+-   UI must remain **clean and responsive**
+-   Stock status should change based on prop value
+
+Example Logic:
+
+-   If `inStock === true`
+    -   Show **In Stock**
+-   Else
+    -   Show **Out of Stock**
+
+------------------------------------------------------------------------
+
+### 💡 Suggested Code Logic (Hint)
+
+Example ProductCard component:
+
+``` jsx
+function ProductCard({ name, price, inStock }) {
+  return (
+    <div className="card">
+      <h2>{name}</h2>
+      <p>Price: ₹{price}</p>
+      <p>Status: {inStock ? "In Stock" : "Out of Stock"}</p>
+    </div>
+  );
+}
+```
+
+Using component in App:
+
+``` jsx
+<ProductCard name="Laptop" price={55000} inStock={true} />
+<ProductCard name="Headphones" price={2000} inStock={false} />
+```
+
+------------------------------------------------------------------------
+
+### 📸 Output Example (Reference)
+
+**Product Card**
+
+Product: Laptop\
+Price: ₹55000\
+Status: In Stock
+
+Product: Headphones\
+Price: ₹2000\
+Status: Out of Stock
+
+------------------------------------------------------------------------
+
+### 📌 Notes
+
+-   Write clean and well‑structured code
+-   Use proper **component naming**
+-   Add comments where necessary
+-   Ensure UI works properly in **desktop and mobile views**
+-   Follow good **React coding practices**
+
 
 <div align="center">
 
