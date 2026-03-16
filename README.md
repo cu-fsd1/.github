@@ -633,7 +633,7 @@ character-counter/
 Please submit your project details using the following link:
 
 <div align="center">
-  <a href="https://forms.gle/1433N9gZQBqgGktb7">
+  <a href="https://forms.gle/FeUbdSpsvoxykHoG7">
     <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
   </a>
 </div>
