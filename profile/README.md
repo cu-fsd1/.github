@@ -21,6 +21,7 @@
   - [Experiment 4](#-experiment-4)
   - [Experiment 5](#-experiment-5)
   - [Experiment 6](#-experiment-6)
+  - [Experiment 7](#-experiment-7)
 
 ---
 
@@ -822,6 +823,221 @@ Status: Out of Stock
 -   Add comments where necessary
 -   Ensure UI works properly in **desktop and mobile views**
 -   Follow good **React coding practices**
+
+## 🧪 Experiment 7
+
+### ✍️ React UI -- Task Manager (To-Do App)
+
+## Task Manager UI
+
+> ❗ 07 April 2026, 06:00 PM
+
+### 📝 Google Form  
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/ptmsDimqc1M3JoF38">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+### 📝 Submission Instructions
+
+Students must submit the project using the submission method instructed
+in class (**GitHub / Drive**).
+
+---
+
+### 📌 Assessment Topic
+
+Build a **Task Manager (To-Do Application)** using **React**, where users can:
+
+- Add tasks  
+- Mark tasks as completed  
+- Delete tasks  
+- View tasks dynamically  
+
+This experiment focuses on understanding **state management, list rendering, and event handling in React**.
+
+------------------------------------------------------------------------
+
+### 🎯 Objective
+
+By completing this experiment, students will:
+
+- Understand **React state (`useState`)**
+- Learn **event handling**
+- Practice **list rendering using map()**
+- Implement **basic CRUD operations**
+- Build a **real-world interactive UI**
+
+------------------------------------------------------------------------
+
+### 🧩 Mandatory React Concepts
+
+Students **must use** the following React concepts:
+
+#### ✅ State Management
+
+- Store tasks using `useState`
+
+#### ✅ Event Handling
+
+- Handle adding, deleting, and completing tasks
+
+#### ✅ List Rendering
+
+- Use `map()` to display tasks dynamically
+
+#### ✅ Conditional Rendering
+
+- Show message when no tasks exist
+- Style completed tasks differently
+
+⚠️ **Marks will be deducted if any of the above is missing.**
+
+------------------------------------------------------------------------
+
+### 🎨 UI & Design Requirements
+
+- Clean and minimal UI  
+- Input field with Add button  
+- Task list clearly displayed  
+- Completed tasks should have:
+  - Strikethrough OR different color  
+- Responsive layout (mobile + desktop)  
+- Proper spacing and alignment  
+- Simple hover effects  
+
+------------------------------------------------------------------------
+
+### 🧑‍💻 Application Must Include
+
+Each project **must contain**:
+
+- Input field to add task  
+- Add button  
+- Task list display  
+- Delete button for each task  
+- Mark as complete functionality  
+
+Example:
+
+- Task 1 → Complete assignment ✔  
+- Task 2 → Buy groceries ✖  
+
+------------------------------------------------------------------------
+
+### 🌟 Bonus Features (Optional)
+
+Students can add additional improvements such as:
+
+- Edit task  
+- Filter tasks (All / Completed / Pending)  
+- Save tasks using localStorage  
+- Task counter  
+- Clear all tasks button  
+
+------------------------------------------------------------------------
+
+### 📁 Recommended Folder Structure (React)
+
+Example (Vite):
+
+    task-manager/
+    │
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   └── TaskItem.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── styles.css
+    │
+    ├── index.html
+    ├── package.json
+    └── README.md
+
+------------------------------------------------------------------------
+
+### 🛠️ Functional Requirements
+
+- User can type a task and click **Add**
+- Task should appear instantly in the list  
+- Each task should have:
+  - Complete toggle  
+  - Delete button  
+- Completed task should visually change  
+- If no tasks → show message  
+- UI must update **without reload**
+
+Example Logic:
+
+- If task is completed  
+    - Apply strikethrough  
+- Else  
+    - Show normally  
+
+------------------------------------------------------------------------
+
+### 💡 Suggested Code Logic (Hint)
+
+Example Task Component:
+
+```jsx
+function TaskItem({ task, toggleTask, deleteTask }) {
+  return (
+    <div>
+      <span
+        style={{
+          textDecoration: task.completed ? "line-through" : "none"
+        }}
+      >
+        {task.text}
+      </span>
+
+      <button onClick={toggleTask}>✔</button>
+      <button onClick={deleteTask}>❌</button>
+    </div>
+  );
+}
+```
+
+Using in App:
+
+```jsx
+const [tasks, setTasks] = useState([]);
+
+tasks.map((task, index) => (
+  <TaskItem
+    key={index}
+    task={task}
+    toggleTask={() => toggleTask(index)}
+    deleteTask={() => deleteTask(index)}
+  />
+));
+```
+
+------------------------------------------------------------------------
+
+### 📸 Output Example (Reference)
+
+**Task Manager**
+
+- Complete project ✔  
+- Study React ✖  
+- Practice coding ✔  
+
+------------------------------------------------------------------------
+
+### 📌 Notes
+
+- Write clean and well‑structured code  
+- Use proper **component naming**  
+- Add comments where necessary  
+- Ensure UI works properly in **desktop and mobile views**  
+- Follow good **React coding practices**
 
 
 <div align="center">
