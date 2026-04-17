@@ -1039,6 +1039,291 @@ tasks.map((task, index) => (
 - Ensure UI works properly in **desktop and mobile views**  
 - Follow good **React coding practices**
 
+## 🧪 Experiment 8  
+
+### 🔐 Full Stack Authentication System (JWT + RBAC)
+
+## Auth System (Frontend + Backend + MongoDB)
+
+> ❗ 18 April 2026, 07:00 PM  
+
+---
+### 📝 Google Form  
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/EFPHZKF7jYT6GKVr8">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+### 📝 Submission Instructions  
+
+Students must submit the project using the submission method instructed  
+in class (**GitHub / Drive**).  
+
+---
+
+### 📌 Assessment Topic  
+
+Build a **Full Stack Authentication System** using:
+
+- **Frontend:** React  
+- **Backend:** Node.js + Express  
+- **Database:** MongoDB  
+- **Security:** JWT Authentication + Role-Based Access Control (RBAC)  
+
+Users should be able to:
+
+- Register  
+- Login  
+- Access protected routes  
+- View content based on their role (**Admin/User**)  
+
+---
+
+### 🎯 Objective  
+
+By completing this experiment, students will:
+
+- Understand **frontend-backend communication (API integration)**  
+- Learn **JWT authentication**  
+- Implement **Role-Based Access Control (RBAC)**  
+- Work with **MongoDB database operations**  
+- Build a **secure full-stack application**  
+
+---
+
+
+### 📸 Screenshot Submission (Mandatory)
+
+Students must include **proof of execution** by attaching screenshots of the application.
+
+#### 📁 Create a Folder:
+
+```
+/screenshots
+```
+
+inside your project root directory.
+
+---
+
+### 📷 Required Screenshots  
+
+1. **Registration Page** – User filling the form  
+2. **Login Page** – Successful login  
+3. **User Dashboard** – User-specific content  
+4. **Admin Dashboard** – Admin viewing all users  
+5. **Protected Route** – Unauthorized access blocked  
+6. **MongoDB Data** – Stored user data  
+
+
+### 🧩 Mandatory Concepts  
+
+Students **must implement** the following:
+
+#### ✅ Backend (Node + Express)
+
+- REST API creation  
+- JWT authentication  
+- Middleware for route protection  
+- Role-based authorization  
+
+#### ✅ Frontend (React)
+
+- Login & Register forms  
+- API integration using fetch/axios  
+- Token storage (localStorage)  
+- Conditional UI rendering  
+
+#### ✅ Database (MongoDB)
+
+- User schema:
+  - name  
+  - email  
+  - password  
+  - role (admin/user)  
+
+⚠️ **Marks will be deducted if any of the above is missing.**  
+
+---
+
+### 🔐 Core Features  
+
+#### Authentication
+
+- User Registration  
+- User Login  
+- JWT Token generation  
+- Password storage (hashed recommended)  
+
+#### Authorization (RBAC)
+
+- Two roles:
+  - **Admin**
+  - **User**  
+
+- Access Rules:
+  - Admin → Can view all users  
+  - User → Can view only their own profile  
+
+---
+
+### 🎨 UI & Design Requirements  
+
+- Clean and minimal UI  
+- Separate pages:
+  - Login Page  
+  - Register Page  
+  - Dashboard  
+- Display user role in dashboard  
+- Responsive design (mobile + desktop)  
+- Proper error messages (invalid login, etc.)  
+
+---
+
+### 🧑‍💻 Application Must Include  
+
+Each project **must contain**:
+
+- Register form  
+- Login form  
+- Protected dashboard  
+- Role-based content rendering  
+- Logout functionality  
+
+---
+
+### 📁 Recommended Folder Structure  
+
+```
+auth-system/
+│
+├── backend/
+│   ├── models/
+│   │   └── User.js
+│   ├── routes/
+│   │   └── authRoutes.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── roleMiddleware.js
+│   ├── controllers/
+│   │   └── authController.js
+│   ├── config/
+│   │   └── db.js
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   └── Dashboard.jsx
+│   │   ├── components/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│
+└── README.md
+```
+
+---
+
+### 🛠️ Functional Requirements  
+
+- User can register  
+- User can login and receive JWT  
+- Token must be stored in frontend  
+- Protected routes should require token  
+- Role-based access should be enforced  
+- UI should update dynamically without reload  
+
+---
+
+### 💡 Suggested Code Logic (Hint)  
+
+#### Backend (JWT Middleware)
+
+```js
+const jwt = require("jsonwebtoken");
+
+function authMiddleware(req, res, next) {
+  const token = req.headers.authorization;
+
+  if (!token) return res.status(401).json({ message: "No token" });
+
+  try {
+    const decoded = jwt.verify(token, "SECRET_KEY");
+    req.user = decoded;
+    next();
+  } catch (err) {
+    res.status(401).json({ message: "Invalid token" });
+  }
+}
+```
+
+#### Role Middleware
+
+```js
+function roleMiddleware(role) {
+  return (req, res, next) => {
+    if (req.user.role !== role) {
+      return res.status(403).json({ message: "Access denied" });
+    }
+    next();
+  };
+}
+```
+
+#### Frontend (Protected Route Example)
+
+```jsx
+const token = localStorage.getItem("token");
+
+if (!token) {
+  return <Navigate to="/login" />;
+}
+```
+
+---
+
+### 📸 Output Example (Reference)  
+
+**Dashboard**
+
+- Welcome, Admin  
+- View All Users ✔  
+
+**User Dashboard**
+
+- Welcome, User  
+- View Profile ✔  
+
+---
+
+### 🌟 Bonus Features (Optional)  
+
+Students can add:
+
+- Password hashing using bcrypt  
+- Refresh tokens  
+- Forgot password feature  
+- Role switching (admin panel)  
+- API error handling UI  
+- Dark mode  
+
+---
+
+### 📌 Notes  
+
+- Write clean and modular code  
+- Use proper folder structure  
+- Test APIs using Postman  
+- Ensure frontend and backend are properly connected  
+- Follow good coding practices  
+
+---
 
 <div align="center">
 
