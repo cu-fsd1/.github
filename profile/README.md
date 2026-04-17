@@ -22,6 +22,7 @@
   - [Experiment 5](#-experiment-5)
   - [Experiment 6](#-experiment-6)
   - [Experiment 7](#-experiment-7)
+  - [Experiment 8](#-experiment-8)
 
 ---
 
