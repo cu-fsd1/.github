@@ -18,6 +18,7 @@
 - [🧪 Experiment Guides](#-experiment-guides)
   - [Experiment 1](#-experiment-1)
   - [Experiment 2](#-experiment-2)
+  - [Experiment 3](#-experiment-3)
   - [Experiment 4](#-experiment-4)
   - [Experiment 5](#-experiment-5)
   - [Experiment 6](#-experiment-6)
@@ -192,26 +193,7 @@ Create a comprehensive README equivalent to your practical file:
 
 ## 🧪 Experiment Guides
 
-## 🎨 Experiment 1
-
-> [!IMPORTANT]
-> **Deadline:** 23 January 2026
-
----
-
-## 📤 Submission
-
-### 📝 Google Form
-
-Please submit your project details using the following link:
-
-<div align="center">
-  <a href="https://forms.gle/3Cac7xx1GJdnwHNz6">
-    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
-  </a>
-</div>
-
----
+## 🎨 Common Experiment Guides
 
 ### 🛠️ Installation and Setup
 
@@ -233,6 +215,148 @@ Install the **Live Server** extension in VSCode (an improved version of Live Ser
 2. Go to Extensions (`Ctrl+Shift+X` or `Cmd+Shift+X`)
 3. Search for "Live Server"
 4. Click Install
+
+# 🧪 Experiment 1
+
+## HTML Forms Experiment – Resume Builder Form
+
+> **Deadline:** 25 Jan, 5:30 PM  
+> **Viva:** Will be conducted in upcoming classes
+
+---
+## 📤 Submission
+
+### 📝 Google Form
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/3Cac7xx1GJdnwHNz6">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+
+## 📝 Submission Instructions
+
+Students must submit the project using the submission method instructed in class (**GitHub / Drive**).
+
+---
+
+## 📌 Assessment Topic
+
+Design a **professional Resume Builder Form** using **HTML only** (basic CSS styling allowed if desired).
+
+The form should collect complete resume information similar to job portal or hiring websites.
+
+---
+
+## 🎯 Objective
+
+By completing this experiment, students will:
+
+- Understand HTML form structure
+- Learn different input elements
+- Practice labels, placeholders, validations
+- Create real-world data collection forms
+- Improve semantic HTML writing skills
+
+---
+
+## 🧩 Mandatory HTML Concepts
+
+Students **must use all of the following HTML form elements:**
+
+- `<input type="text">`
+- `<input type="email">`
+- `<input type="tel">`
+- `<input type="date">`
+- `<input type="file">`
+- `<textarea>`
+- `<select>`
+- `<radio>`
+- `<checkbox>`
+- `<button>`
+
+**Marks will be deducted if any mandatory field/input type is missing.**
+
+---
+
+## 🎨 UI & Structure Requirements
+
+- Proper heading: Resume Builder Form
+- Use fieldsets and legends
+- Proper alignment of labels and inputs
+- Use placeholders wherever needed
+- Required validations on important fields
+- Clean readable layout
+
+---
+
+## 🧑‍💼 Resume Form Must Include
+
+### Personal Details
+- Full Name
+- Email
+- Mobile Number
+- Date of Birth
+- Gender
+- Address
+- Upload Photo
+
+### Education Details
+- 10th Percentage
+- 12th Percentage
+- Graduation Degree
+- College Name
+- Passing Year
+
+### Skills & Experience
+- Technical Skills
+- Internship Experience
+- Projects Completed
+- Experience Level
+
+### Additional Information
+- Career Objective
+- Languages Known
+- Hobbies / Interests
+
+### Final Buttons
+- Submit Resume
+- Reset Form
+
+---
+
+## 📁 Recommended Folder Structure
+
+```text
+resume-builder/
+│
+├── index.html
+├── style.css (optional)
+└── assets/
+```
+
+---
+
+## 🏆 Bonus (Optional for Extra Marks)
+
+- Add profile photo preview
+- Use icons in labels
+- Better styling with CSS
+- Responsive form layout
+
+---
+
+## 🎤 Viva Preparation Questions
+
+1. What is the purpose of HTML forms?
+2. Difference between GET and POST method?
+3. Why do we use label tag?
+4. What is placeholder attribute?
+5. Difference between radio and checkbox?
+
 
 ## 🧪 Experiment 2 
 
@@ -339,6 +463,277 @@ profile-card/
 └── assets/
     └── profile.jpg
 ```
+# 🧪 Experiment 3
+
+## React Experiment – API Data Fetching Project
+
+> **Deadline:** 24 April, 5:30 PM  
+> **Viva:** Will be conducted in upcoming classes
+
+---
+
+## 📝 Submission Instructions
+
+Students must submit the project using the submission method instructed in class (**GitHub / Drive**).
+
+---
+
+### 📝 Google Form
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/AZS5e6arkvJCgigJ6">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+
+## 📌 Assessment Topic
+
+Build a **React API Fetching Application** using **React.js** that reads data from a public API and displays it in a clean user interface.
+
+Example APIs:
+
+- Users API
+- Products API
+- Movies API
+- Weather API
+- News API
+
+---
+
+## 🎯 Objective
+
+By completing this experiment, students will:
+
+- Understand React component structure
+- Learn API integration using `fetch()` or `axios`
+- Use `useState()` and `useEffect()` hooks
+- Display dynamic data in UI
+- Handle loading and error states
+
+---
+
+## 🧩 Mandatory React Concepts
+
+Students **must use all** of the following concepts:
+
+- Functional Components
+- `useState()`
+- `useEffect()`
+- API Call using `fetch()` or `axios`
+- `map()` for rendering multiple items
+- Conditional Rendering
+
+**Marks will be deducted if any mandatory concept is missing.**
+
+---
+
+## 🎨 UI & Design Requirements
+
+- Clean modern layout
+- Card-based design
+- Responsive for mobile + desktop
+- Search bar (optional)
+- Hover effects
+- Proper spacing and alignment
+
+---
+
+## 🧑‍💻 Project Must Include
+
+- App Heading
+- API Data Fetch Button (optional auto load)
+- Loading Message
+- Error Handling
+- At least 6 records displayed
+- Cards/List UI
+- Image if API provides image
+- Refresh Button
+
+---
+
+## 🌐 Suggested Free APIs
+
+### Users API
+```text
+https://jsonplaceholder.typicode.com/users
+```
+
+### Products API
+```text
+https://fakestoreapi.com/products
+```
+
+### Movies API
+```text
+https://api.tvmaze.com/shows
+```
+
+---
+
+## 📁 Recommended Folder Structure
+
+```text
+react-api-project/
+│
+├── src/
+│   ├── App.js
+│   ├── Components/
+│   └── App.css
+│
+├── package.json
+└── public/
+```
+
+---
+
+## 🏆 Bonus (Optional for Extra Marks)
+
+- Search filter
+- Pagination
+- Dark mode
+- Category filter
+- API data sorting
+
+---
+
+## 🎤 Viva Preparation Questions
+
+1. What is React.js?
+2. What is `useState()`?
+3. What is `useEffect()` used for?
+4. Difference between `fetch()` and `axios`?
+5. Why do we use `map()` in React?
+6. What is API?
+7. What is JSON data?
+
+# 🧪 Experiment 3
+
+## React Experiment – API Data Fetching Project
+
+> **Deadline:** 24 April 
+
+---
+
+## 📝 Submission Instructions
+
+Students must submit the project using the submission method instructed in class (**GitHub / Drive**).
+
+---
+
+## 📌 Assessment Topic
+
+Build a **React API Fetching Application** using **React.js** that reads data from a public API and displays it in a clean user interface.
+
+Example APIs:
+
+- Users API
+- Products API
+- Movies API
+- Weather API
+- News API
+
+---
+
+## 🎯 Objective
+
+By completing this experiment, students will:
+
+- Understand React component structure
+- Learn API integration using `fetch()` or `axios`
+- Use `useState()` and `useEffect()` hooks
+- Display dynamic data in UI
+- Handle loading and error states
+
+---
+
+## 🧩 Mandatory React Concepts
+
+Students **must use all** of the following concepts:
+
+- Functional Components
+- `useState()`
+- `useEffect()`
+- API Call using `fetch()` or `axios`
+- `map()` for rendering multiple items
+- Conditional Rendering
+
+**Marks will be deducted if any mandatory concept is missing.**
+
+---
+
+## 🎨 UI & Design Requirements
+
+- Clean modern layout
+- Card-based design
+- Responsive for mobile + desktop
+- Search bar (optional)
+- Hover effects
+- Proper spacing and alignment
+
+---
+
+## 🧑‍💻 Project Must Include
+
+- App Heading
+- API Data Fetch Button (optional auto load)
+- Loading Message
+- Error Handling
+- At least 6 records displayed
+- Cards/List UI
+- Image if API provides image
+- Refresh Button
+
+---
+
+## 🌐 Suggested Free APIs
+
+### Users API
+```text
+https://jsonplaceholder.typicode.com/users
+```
+
+### Products API
+```text
+https://fakestoreapi.com/products
+```
+
+### Movies API
+```text
+https://api.tvmaze.com/shows
+```
+
+---
+
+## 📁 Recommended Folder Structure
+
+```text
+react-api-project/
+│
+├── src/
+│   ├── App.js
+│   ├── Components/
+│   └── App.css
+│
+├── package.json
+└── public/
+```
+
+---
+
+## 🏆 Bonus (Optional for Extra Marks)
+
+- Search filter
+- Pagination
+- Dark mode
+- Category filter
+- API data sorting
+
+---
+
+
 ## 🧪 Experiment 4  
 
 ### 💰 JavaScript Banking UI – Simple Wallet Application  
@@ -1323,6 +1718,207 @@ Students can add:
 - Test APIs using Postman  
 - Ensure frontend and backend are properly connected  
 - Follow good coding practices  
+
+---
+# 🧪 Experiment 9
+
+## 🗄️ MongoDB CRUD Operations + Postman Testing
+
+> ❗ **Deadline:** 24 April 2026, 06:00 PM
+
+### 📝 Google Form  
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/zK568pRNpkhBR9MeA">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+## 📌 Assessment Topic
+
+Build a **Node.js + Express + MongoDB CRUD Application**.
+
+After connecting MongoDB database, students must perform:
+
+- Create Data
+- Read Data
+- Update Data
+- Delete Data
+
+All APIs must be tested using **Postman** and screenshots must be attached.
+
+---
+
+## 🎯 Objective
+
+By completing this experiment, students will:
+
+- Understand MongoDB database connection
+- Learn CRUD operations using Mongoose
+- Build REST APIs using Express.js
+- Test backend APIs using Postman
+- Understand request/response flow
+
+---
+
+## 🧩 Mandatory Concepts
+
+Students **must implement** the following:
+
+### ✅ Backend (Node.js + Express)
+
+- Express server setup
+- REST API routes
+- Controller functions
+- Error handling
+
+### ✅ Database (MongoDB)
+
+- MongoDB Atlas / Local MongoDB
+- Mongoose schema
+- Database connection
+
+### ✅ CRUD Operations
+
+- POST → Create record
+- GET → Read all records
+- PUT → Update record
+- DELETE → Delete record
+
+### ✅ Postman Testing
+
+- Test all APIs
+- Proper status codes
+- JSON response
+
+⚠️ **Marks will be deducted if any mandatory concept is missing.**
+
+---
+
+## 💻 Suggested Project Topic
+
+Create **Student Management System**
+
+Fields:
+
+- name
+- email
+- course
+- age
+
+---
+
+## 🔌 Required API Endpoints
+
+### Create Student
+
+```text
+POST /api/students
+```
+
+### Get All Students
+
+```text
+GET /api/students
+```
+
+### Update Student
+
+```text
+PUT /api/students/:id
+```
+
+### Delete Student
+
+```text
+DELETE /api/students/:id
+```
+
+---
+
+## 📸 Screenshot Submission (Mandatory)
+
+Create folder:
+
+```text
+/screenshots
+```
+
+inside project root.
+
+### Required Screenshots
+
+1. MongoDB Database Connected
+2. POST API success in Postman
+3. GET All Data in Postman
+4. PUT API update success
+5. DELETE API success
+6. MongoDB collection showing inserted data
+7. Project folder structure
+
+---
+
+## 📁 Recommended Folder Structure
+
+```text
+crud-app/
+│
+├── models/
+│   └── Student.js
+│
+├── routes/
+│   └── studentRoutes.js
+│
+├── controllers/
+│   └── studentController.js
+│
+├── config/
+│   └── db.js
+│
+├── screenshots/
+│
+├── server.js
+└── package.json
+```
+
+---
+
+## 💡 Sample Schema
+
+```js
+const mongoose = require("mongoose");
+
+const studentSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+  course: String,
+  age: Number
+});
+
+module.exports = mongoose.model("Student", studentSchema);
+```
+
+---
+
+## 🌟 Bonus Features (Optional)
+
+- Search student by name
+- Pagination
+- Validation
+- Better error messages
+- Frontend integration with React
+
+---
+
+## 📌 Notes
+
+- Use clean folder structure
+- Use async/await
+- Test every route properly
+- Submit screenshots
+- Follow coding standards
 
 ---
 
