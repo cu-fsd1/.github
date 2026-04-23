@@ -24,6 +24,8 @@
   - [Experiment 6](#-experiment-6)
   - [Experiment 7](#-experiment-7)
   - [Experiment 8](#-experiment-8)
+  - [Experiment 9](#-experiment-9)
+  - [Experiment 10](#-experiment-10)
 
 ---
 
@@ -1921,6 +1923,193 @@ module.exports = mongoose.model("Student", studentSchema);
 - Follow coding standards
 
 ---
+# 🧪 Experiment 10
+
+# 🚀 End Term Practical MST – Capstone Project
+
+Dear Students,
+
+The **End Term Practical MST** will be based on the **Capstone Project**.
+
+> ❗ **Last Working Day:** 24th April 2026  
+> Students must complete their projects before this date.
+
+--- 
+
+## 📝 Submission Guidelines
+
+Students must submit their project details using the Google Form link that will be shared by faculty.
+
+Students must also upload:
+
+- Project Report (Soft Copy)
+- PPT Presentation
+- Source Code
+- GitHub Public Repository Link
+- Any supporting files/documents
+
+---
+### 📝 Google Form  
+
+Please submit your project details using the following link:
+
+<div align="center">
+  <a href="https://forms.gle/vefB8j5sijkU4KzZ7">
+    <img src="https://img.shields.io/badge/Submit%20to%20Google%20Form-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Submit to Google Form" />
+  </a>
+</div>
+
+
+## 📌 Assessment Topic
+
+Build a **complete real-world capstone project** using technologies learned during the semester.
+
+Suggested stacks:
+
+- Frontend: HTML / CSS / JavaScript / React
+- Backend: Node.js / Express.js
+- Database: MongoDB / MySQL
+- Authentication: JWT
+- Deployment (Optional): Render / Netlify / Vercel / AWS
+
+---
+
+## 🎯 Objective
+
+By completing this capstone project, students will:
+
+- Apply full stack development skills
+- Build industry-level project architecture
+- Work in team collaboration
+- Manage GitHub repositories
+- Present technical project professionally
+- Solve real-world use cases
+
+---
+
+## 👥 Team Rules
+
+- Maximum **2 members** per team
+- Solo projects are also allowed
+- Equal contribution expected from both members
+
+---
+
+## 🧩 Mandatory Requirements
+
+Students **must include** the following:
+
+### ✅ Frontend
+
+- Attractive UI Design
+- Responsive Layout
+- Multiple Pages / Components
+- Form Handling
+
+### ✅ Backend
+
+- REST APIs
+- Proper Folder Structure
+- Validation
+- Error Handling
+
+### ✅ Database
+
+- Data Storage
+- CRUD Operations
+- Proper Schema Design
+
+### ✅ Authentication
+
+- Login / Register System
+- Protected Routes
+
+### ✅ Project Management
+
+- Public GitHub Repository
+- Regular Commits
+- Clean Code
+
+⚠️ Marks will be deducted if mandatory parts are missing.
+
+---
+
+## 💡 Suggested Capstone Ideas
+
+Students may build any one project such as:
+
+1. E-Commerce Website
+2. Student Management System
+3. Job Portal
+4. Social Media App
+5. Food Delivery App
+6. Expense Tracker
+7. Online Voting System
+8. Learning Management System
+9. Hospital Management System
+10. Blog Platform
+
+---
+
+## 📸 Required Deliverables
+
+Students must submit:
+
+1. GitHub Public Link
+2. PPT Presentation
+3. Project Report (Soft Copy)
+4. Screenshots of Project
+5. Working Demo Video (Optional)
+6. Database Export (Optional)
+
+---
+
+## 📁 Recommended Folder Structure
+
+```text
+capstone-project/
+│
+├── frontend/
+│
+├── backend/
+│
+├── screenshots/
+│
+├── report/
+│   └── Project_Report.pdf
+│
+├── ppt/
+│   └── Presentation.pptx
+│
+└── README.md
+```
+
+---
+
+## 🎤 Evaluation Criteria
+
+- Project Idea & Innovation
+- UI / UX Design
+- Functionality
+- Backend Logic
+- Database Design
+- GitHub Usage
+- PPT Presentation
+- Viva Questions
+- Team Coordination
+
+
+
+## 📌 Important Notes
+
+- No hard copy of project report required
+- Submit all files before deadline
+- Practice PPT presentation
+- Project must be in working condition
+- Be ready for viva and demo
+
+---
+
 
 <div align="center">
 
